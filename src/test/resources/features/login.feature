@@ -14,7 +14,7 @@ Feature: Library Login Functionality
     And user clicks the login button
     Then user sees the dashboard
 
-
+@smoke
   Scenario: Student Login Functionality
     When user enters student username
     And user enters student password

@@ -9,7 +9,7 @@ Feature: Data Driven Testing with different user accounts
     When I login using "<email>" and "<password>"
     Then account holder name should be "<name>"
 #TEST DATA for library2.env
-    @Smoke
+    @smoke
     Examples:
       | email             | password    | name            |
       | student27@library | libraryUser | Test Student 27 |
